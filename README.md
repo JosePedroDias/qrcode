@@ -20,4 +20,4 @@ var canvasEl = QR.generateQRCodeCanvas({
 This returns a canvas element you can append to the DOM.  
 Text can't be longer than 119 charaters long.
 
-Check the examples.
+Check the [examples](http://rawgit.com/JosePedroDias/qrcode/master/index.html).
