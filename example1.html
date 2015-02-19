@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<title>client-side QR code generation</title>
+
+		<style type="text/css">
+			body {
+				font-family: sans-serif;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<h1>client-side QR code generation - one-time canvas</h1>
+
+		<script type="application/javascript" src="qrcode.js"></script>
+
+		<script type="application/javascript">
+			document.body.appendChild(
+				QR.generateQRCodeCanvas({
+					text:   'hello world',
+					scale:  5,
+					margin: 0
+				})
+			);
+		</script>
+	</body>
+</html>
